@@ -1,0 +1,16 @@
+name = "backend-ai-01"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+[env.production]
+name = "backend-ai-01-production"
+
+[env.staging]
+name = "backend-ai-01-staging"
+
+# Uncomment and add your OpenAI API key
+# [vars]
+# DEEPSEEK_API_KEY = "your-openai-api-key"
+
+# Or use secrets for sensitive data (recommended)
+# Run: wrangler secret put DEEPSEEK_API_KEY
